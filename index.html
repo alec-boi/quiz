@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="header-div">
-            <span id="anterior">
+            <span class="anterior">
                 <a href="#">
                     <ion-icon class="icone" name="chevron-back-circle-outline"></ion-icon>
                 </a>
@@ -20,7 +20,7 @@
                 <p>Mesopotâmia e Egito Antigo</p>
                 <p><span>número</span> de <span>número</span></p>
             </span>
-            <span id="frente">
+            <span class="frente">
                 <a href="#">
                     <ion-icon class="icone" name="chevron-forward-circle-outline"></ion-icon>
                 </a>
@@ -29,9 +29,50 @@
     </header>
 
     <div class="container">
-        
         <div class="content">        
-            <div class="card"></div>
+            <div class="card">
+                <h2>Número</h2>
+                <div class="pergunta">
+                    <h1>Napoleão Bonaparte era baixo?</h1>
+                    <img src="./assets/imagens-quiz/napoleao.webp" alt="Napoleão">
+                    <div class="opcoes">
+                        <span>A) Não</span>
+                        <span>B) Não</span>
+                        <span>C) Não</span>
+                        <span>D) Não</span>
+                        <span>E) Sim (vc é trouxa?)</span>
+                    </div>
+                </div>
+                <div class="buttons-div">
+                    <span class="anterior">
+                        <a href="#">
+                            <ion-icon class="icon" name="chevron-back-outline"></ion-icon> 
+                        </a>
+                    </span>
+                    
+                    <input type="radio" id="btn1" name="btn-group" class="btn-select">
+                    <label for="btn1" class="btn">A</label>
+
+                    <input type="radio" id="btn2" name="btn-group" class="btn-select">
+                    <label for="btn2" class="btn">B</label>
+
+                    <input type="radio" id="btn3" name="btn-group" class="btn-select">
+                    <label for="btn3" class="btn">C</label>
+
+                    <input type="radio" id="btn4" name="btn-group" class="btn-select">
+                    <label for="btn4" class="btn">D</label>
+
+                    <input type="radio" id="btn5" name="btn-group" class="btn-select">
+                    <label for="btn5" class="btn">E</label>
+
+                    <span class="frente">
+                        <a href="#">
+                            <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </span>
+
+                </div>
+            </div>
         </div>
     </div>
 
